@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: larger;
+}
+
+.container {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li.playing {
+    background-color: #0b5eb7;
+    color: #fff;
+}
+
+#music-image {
+    margin-top: 0px;
+}
